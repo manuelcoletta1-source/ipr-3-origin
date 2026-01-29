@@ -1,1 +1,13 @@
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAKB/3yBMV3jgJtNK1hzLOVarvN44w1Ed0vcmzT5jhk manuelcoletta1@pinguin
+ED25519 PUBLIC KEY — SIGNER (EVENTS)
+
+Scope:
+- Repository: ipr-3-origin
+- Purpose: sign new append-only events (restores, evidence packs, receipts)
+- Does NOT modify IPR-3 anchors or canonical time
+
+Public Key:
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAKB/3yBMV3jgJtNK1hzLOVarvN44w1Ed0vcmzT5jhk manuelcoletta1@penguin
+
+Policy:
+UE-FIRST | AUDIT | FAIL-CLOSED | HASH-ONLY
+
