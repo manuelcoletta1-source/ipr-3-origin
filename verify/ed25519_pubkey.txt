@@ -1,0 +1,1 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHAKB/3yBMV3jgJtNK1hzLOVarvN44w1Ed0vcmzT5jhk manuelcoletta1@pinguin
