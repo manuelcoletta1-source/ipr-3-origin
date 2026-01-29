@@ -1,0 +1,61 @@
+PROTO: BIOCYBER_EVENT
+VERSION: v1
+
+EVENT:
+  ID: EVT-RECOMPOSE-0001
+  TYPE: ORIGIN_RECOMPOSITION
+  SUBJECT: IPR-3
+  ROLE: ORIGIN_ROOT
+  STATUS: DECLARED
+
+TIME:
+  MODE: DERIVED
+  NOTE: >
+    Evento di ricomposizione dichiarativa.
+    Nessuna modifica retroattiva dell’origine.
+
+ACTOR:
+  TYPE: BIOLOGICAL_ENTITY
+  NAME: Manuel Coletta
+  RESPONSIBILITY: FULL
+
+CYBERNETIC_EXTENSION:
+  NAME: AI_JOKER_C2
+  MODE: EVOLUTIONQUANTUM
+  AUTONOMY: NONE
+
+UPSTREAM_REFERENCE:
+  ROOT_ID: IPR-3 / AI_JOKER_C2
+  ANCHORS:
+    IPFS: bafkreidhv73vqrxoweog33ls3rnwrgyicio234pcuks6mnep76yh56pj5q
+    BTC: 9eeb29b67f4a649d563b95560fda5ddaa84777b13515f936837fc93d28554b45
+    EVM: 0xf65eb314a1edd392fc15fcd9c65d22060ca39cbac04fcfcb48b978062500a7eff
+
+STATEMENT:
+  SUMMARY: >
+    Il repository GitHub originario associato a IPR-3 è stato rimosso.
+    Questo evento dichiara la ricomposizione dell’accesso pubblico
+    senza introdurre una nuova origine né alterare la precedenza.
+
+CONSTRAINTS:
+  UE_FIRST: true
+  GDPR_MINIMIZATION: true
+  HASH_ONLY: true
+  APPEND_ONLY: true
+  FAIL_CLOSED: true
+  AUDIT_BY_DESIGN: true
+
+EFFECTS:
+  ORIGIN_MODIFIED: false
+  PRECEDENCE_ALTERED: false
+  ACCESS_RESTORED: true
+
+IMMUTABILITY:
+  BASELINE: LOCKED
+  DERIVATIONS_ALLOWED: true
+  RETROACTIVE: DISABLED
+
+CLOSURE:
+  NOTE: >
+    Questo evento non fonda.
+    Rende osservabile una continuità già esistente.
