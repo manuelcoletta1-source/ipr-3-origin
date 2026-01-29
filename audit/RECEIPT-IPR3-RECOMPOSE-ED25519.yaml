@@ -1,0 +1,41 @@
+PROTO: HBCE-RECEIPT
+VERSION: v1
+TYPE: SIGNATURE_RECEIPT
+STATUS: PENDING_SIGNATURE
+
+SUBJECT:
+  EVENT_ID: EVT-RECOMPOSE-0001
+  ROOT_ID: IPR-3 / AI_JOKER_C2
+  ENTITY: HERMETICUM_BCE_ORIGIN
+
+HASH:
+  ALGORITHM: SHA-512
+  TARGET:
+    - README.md
+    - verify/index.html
+    - audit/EVT-RECOMPOSE-0001.yaml
+  NOTE: >
+    L'hash finale deve essere calcolato sul contenuto esatto dei file elencati,
+    concatenati in ordine deterministico.
+
+SIGNATURE:
+  ALGORITHM: ED25519
+  PUBLIC_KEY_REF: TO_BE_DEFINED
+  SIGNATURE_B64: PENDING
+  MODE: DETACHED
+
+VERIFICATION:
+  MODE: OFFLINE_DETERMINISTIC
+  POLICY: FAIL_CLOSED
+  ON_MISMATCH: INVALID
+
+DECLARATION:
+  NOTE: >
+    Questo receipt prepara la firma crittografica dell’evento di ricomposizione.
+    Nessuna firma è ancora applicata.
+    La firma, quando presente, non modifica il contenuto firmato.
+
+IMMUTABILITY:
+  BASELINE: LOCKED
+  UPDATES: SIGNATURE_ONLY
+  RETROACTIVE: DISABLED
