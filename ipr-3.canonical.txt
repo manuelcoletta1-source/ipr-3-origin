@@ -1,0 +1,9 @@
+IPR-3 — Manuel Coletta (CANONICAL)
+
+TIME (CANONICAL): 2026-01-19T15:30+01:00 (LOCKED)
+STATUS: ACTIVE | COMPLETE
+POLICY: UE-FIRST | AUDIT | FAIL-CLOSED | HASH-ONLY
+
+NOTE:
+This document declares the continuity of IPR-3.
+Anchors are the source of truth.
