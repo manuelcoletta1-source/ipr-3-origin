@@ -1,0 +1,14 @@
+EVENT: EVT-RESTORE-0001
+TYPE: PUBLIC_VERIFICATION_RESTORE
+SUBJECT: IPR-3 — Manuel Coletta
+
+INTENT:
+Restore public verification surface after local deletion.
+No change to anchors or canonical time.
+
+POLICY:
+UE-FIRST | AUDIT | APPEND-ONLY | FAIL-CLOSED
+
+RESULT:
+Verification surface restored.
+Anchors unchanged.
